@@ -1,4 +1,4 @@
-package src.ch01.practice02;
+package src.ch01;
 
 public class HelloWorld {
     public static void main(String[] args) {

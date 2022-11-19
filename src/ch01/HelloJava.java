@@ -1,4 +1,4 @@
-package src.ch01.practice01;
+package src.ch01;
 
 public class HelloJava {
     public static void main(String[] args) {
