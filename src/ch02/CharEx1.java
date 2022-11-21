@@ -1,6 +1,6 @@
 package src.ch02;
 
-public class CharEX1 {
+public class CharEx1 {
     public static void main(String[] args) {
         // 내부적으로 0,1 처리가 되어 자료형에 따라 출력 결과가 달라짐
         // 이를 변환하고 싶은 경우 casting활용
