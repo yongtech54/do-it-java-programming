@@ -2,28 +2,31 @@ package src.ch04.practice;
 
 public class Q5 {
     public static void main(String[] args) {
-        int i, j, k;
+        int i, j;
 
+        int lines = 7;
+        int stars = 1;
+        int spaces = lines / 2 + 1;
+        int midLine = lines / 2;
 
-        for (i = 0; i < 7; i++) {
-            if (i < 7 / 2 + 1) {
-                for (j = i; j < 3; j++) {
-                    System.out.print(" ");
-                }
-                for (k = 0; k < 2 * i + 1; k++) {
-                    System.out.print("*");
-                }
-                System.out.println();
+        for (i = 0; i < lines; i++) {
+            for (j = 0; j < spaces; j++) {
+                System.out.print(" ");
+            }
+            for (j = 0; j < stars; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+
+            if (i < midLine) {
+                stars += 2;
+                spaces -= 1;
             }
             else {
-                for (j = 7 / 2; j < i; j++) {
-                    System.out.print(" ");
-                }
-                for (k = 0; k < 2 * (6 - i) + 1; k++) {
-                    System.out.print("*");
-                }
-                System.out.println();
+                stars -= 2;
+                spaces += 1;
             }
+
         }
     }
 }
