@@ -1,7 +1,5 @@
-package src.ch05.practice.q1;
+package src.ch05.practice.q4;
 
-
-import java.util.Calendar;
 
 public class MyDateTest {
     public static void main(String[] args) {
